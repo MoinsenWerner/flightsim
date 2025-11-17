@@ -10,3 +10,9 @@ A modular flight simulator concept targeting Linux builds that can also be packa
 - Enable cross-platform build targets: native Linux development, Windows installers, and Android APK packaging.
 
 See `docs/design.md` for the current architecture proposal and `sim/` for the initial scaffolding used to prototype control mappings and aircraft/system descriptions.
+
+## Next Steps
+- Implement data-driven aircraft definitions using the `Aircraft` dataclass as a backbone.
+- Flesh out system simulation services and connect them to control state events.
+- Integrate a rendering/input engine (e.g., Godot/Unreal/Unity or a custom renderer) behind the platform adapters.
+- Add persistence for control profiles and per-aircraft avionics states.
