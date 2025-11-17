@@ -1,0 +1,1 @@
+"""FlightSim prototype package."""
